@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temp Portfolio Look</title>
+	<!--google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<!--my stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/mediaqueries.css">
+</head>
+<body>
+	<!--NAVIGATION SECTION-->
+	<nav id="desktop-nav">
+		<div class="logo">Emmanuel Harper</div>
+		<div>
+			<ul class="nav-links">
+				<li><a href="#about">About</a></li>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--Nav hamburger-->
+	<nav id="hamburger-nav">
+		<div class="logo">John Doe</div>
+		<div class="hamburger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="menu-links">
+				<li><a href="#" onclick="toggleMenu()">About</a></li>
+				<li><a href="#" onclick="toggleMenu()">Experience</a></li>
+				<li><a href="#" onclick="toggleMenu()">Projects</a></li>
+				<li><a href="#" onclick="toggleMenu()">Contact</a></li>
+			</div>
+		</div>
+	</nav>
+
+	<!--Profile section-->
+	<section id="profile">
+		<div class="section__pic-container">
+			<img src="https://www.shutterstock.com/image-photo/smiling-african-american-millennial-businessman-600nw-1437938108.jpg" alt="profile pic">
+		</div>
+		<div class="section__text">
+			<p class="section__text__p1">Hello, I'm</p>
+			<h1 class="title">Emmanuel Harper</h1>
+			<p class="section__text__p2">Email Dev</p>
+			<div class="btn-container">
+				<button class="btn btn-color-2" onclick="window.open('./assets/resume-sample.pdf')">Download resume</button>
+				<button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+			</div>
+			<div id="socials-container">
+				<img src="https://i.pinimg.com/564x/f3/08/c6/f308c6e060122209c716705f48c0f181.jpg" alt="linkedin" class="icon" onclick="location.href='https://linkedin.com/'">
+
+				<img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="github" class="icon" onclick="location.href='https://github.com/'">
+			</div>
+		</div>
+	</section>
+
+	<!--About Section-->
+	<section id="about">
+		<p class="section__text__p1">Get To Know More</p>
+		<h1 class="title">About Me</h1>
+		<div class="section-container">
+			<div class="section__pic-container">
+				<img src="https://4.bp.blogspot.com/-Tp6EzO9racc/WpSSdJZL8_I/AAAAAAAAHK0/p2wuL9Xl_xogy7mqpUUiWvddwOR7rRYpQCLcBGAs/s1600/male%2Bmodel%2Bhalf%2Bbody%2Bshot4.jpg" alt="profile picture" class="about">
+			</div>
+			<div class="about-details-container">
+				<div class="about-container">
+					<div class="details-container">
+						<img src="https://www.clker.com/cliparts/y/g/2/T/y/W/badge-hi.png" alt="" class="icon">
+						<h3>Experience</h3>
+						<p>2+ years <br>Email Development</p>
+					</div>
+					<div class="details-container">
+						<img src="https://i.pngimg.me/thumb/f/720/m2H7K9G6K9m2A0i8.jpg" alt="" class="icon">
+						<h3>Education</h3>
+						<p>B.S Bachelors Degree <br>M.Sc. Masters Degree</p>
+					</div>
+				</div>
+				<div class="text-container">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illo neque alias eveniet laborum illum odit eum. Ad, modi quibusdam quia neque quaerat excepturi, maiores enim, alias nihil mollitia harum!</p>
+				</div>
+			</div>
+			<!--About arrow-->
+			<img src="https://toppng.com/uploads/preview/double-arrow-pointing-down-11550097352mxbi1uq6lv.png" alt="arrow" class="icon arrow" onclick="location.href='./experience'">
+		</div>
+	</section>
+
+	<!--Experience Section-->
+	<section id="experience">
+		<p class="section__text__p1">Explore My</p>
+		<h1 class="title">Experience</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="details-container">
+					<h2 class="experience-sub-title">Email Development</h2>
+					<div class="article-container">
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>HTML</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>CSS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>SASS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>JAVASCRIPT</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>TYPESCRIPT</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>MATERIAL UI</h3>
+								<p>Intermediate</p>
+							</div>
+						</article>
+					</div>
+				</div>
+
+
+
+				<!--Backend Container-->
+				<div class="details-container">
+					<h2 class="experience-sub-title">Backend Development</h2>
+					<div class="article-container">
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>PostgresSQL</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>Node JS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>Express JS</h3>
+								<p>Experienced</p>
+							</div>
+						</article>
+						<article>
+							<img src="https://icons.veryicon.com/png/o/business/one-meter-information/check-mark-2.png" alt="experience icon" class="icon">
+							<div>
+								<h3>Git</h3>
+								<p>Basic</p>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<!--Experience arrow-->
+				<img src="https://toppng.com/uploads/preview/double-arrow-pointing-down-11550097352mxbi1uq6lv.png" alt="arrow" class="icon arrow" onclick="location.href='./experience'">
+
+			</div>			
+		</div>
+	</section>
+
+	<!--Projects Section-->
+	<section id="projects">
+		<p class="section__text__p1">Browse My Recent</p>
+		<h1 class="title">Projects</h1>
+		<div class="experience-details-container">
+			<div class="about-containers">
+				<div class="experience-details-container color-container">
+					<div class="article-container">
+						<img src="https://bootstrapmade.com/content/templatefiles/iPortfolio/iPortfolio-bootstrap-website-template-md.webp" alt="project 1" class="project-img">
+					</div>
+					<h2 class="experience-sub-title project-title">Project One</h2>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+					</div>
+				</div>
+				<div class="experience-details-container color-container">
+					<div class="article-container">
+						<img src="https://www.founderjar.com/wp-content/uploads/2023/08/42.-Michael-Mannucci-Personal-Website-Example.jpeg" alt="project 1" class="project-img">
+					</div>
+					<h2 class="experience-sub-title project-title">Project Two</h2>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+					</div>
+				</div>
+				<div class="experience-details-container color-container">
+					<div class="article-container">
+						<img src="https://i.ytimg.com/vi/65GVcdESj3s/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCYqGH_Uf4a2Fox6eLcOpNMTnUNPw" alt="project 1" class="project-img">
+					</div>
+					<h2 class="experience-sub-title project-title">Project Three</h2>
+					<div class="btn-container">
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+						<button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+					</div>
+				</div>
+			</div>
+			<!--projects arrow-->
+			<img src="https://toppng.com/uploads/preview/double-arrow-pointing-down-11550097352mxbi1uq6lv.png" alt="arrow" class="icon arrow" onclick="location.href='.projects'">
+		</div>
+	</section>
+
+	<!--Contact Section-->
+	<section id="contact">
+		<p class="section__text__p1">Get In Touch</p>
+		<h1 class="title">Contact Me</h1>
+		<div class="contact-info-upper-container">
+			<div class="contact-info-container">
+				<img src="https://static-00.iconduck.com/assets.00/email-icon-1024x815-7gaglzqv.png" alt="small icon" class="icon contact-icon">
+				<p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+			</div>
+			<div class="contact-info-container">
+				<img src="https://www.iconpacks.net/icons/1/free-linkedin-icon-112-thumb.png" alt="small icon" class="icon contact-icon">
+				<p><a href="https://www.linkedin.com">Linkedin</a></p>
+			</div>
+		</div>
+	</section>
+
+	<!--Footer Section-->
+	<footer>
+		<nav>
+			<div class="nav-links-container">
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		<p>Copyright &#169; 2024 Emmanuel Harper All Rights Reserved.</p>
+	</footer>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
